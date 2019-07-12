@@ -37,7 +37,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://semakinv.github.io/goit-js-homework/module10/",
+  "homepage": "https://semakinv.github.io/goit-js-test/",
   "author": "Mykola Somakin <k.semakin@gmail.com>",
   "license": "ISC",
   "description": ""
