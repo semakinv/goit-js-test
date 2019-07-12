@@ -1,0 +1,44 @@
+{
+  "name": "js-group-11-12",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "handlebars": "^4.1.2",
+    "shortid": "^2.2.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "gh-pages": "^2.0.1",
+    "handlebars-loader": "^1.7.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.0.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1",
+    "webpackbar": "^3.2.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --env.mode development",
+    "build": "webpack --env.mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://semakinv.github.io/goit-js-homework/module10/",
+  "author": "Mykola Somakin <k.semakin@gmail.com>",
+  "license": "ISC",
+  "description": ""
+}
