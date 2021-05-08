@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "webpack.config.js",
   "dependencies": {
-    "handlebars": "^4.1.2",
+    "handlebars": "^4.7.7",
     "shortid": "^2.2.14"
   },
   "devDependencies": {
